@@ -1,0 +1,24 @@
+﻿Build started 6/13/2013 9:30:23 PM.
+     1>Project "D:\Cplusplus\MatrixOperation3\MatrixDll3\MatrixDll3.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\MatrixDll3.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\MatrixDll3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MatrixDll3.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MatrixDll3.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MatrixClass.cpp
+         MatrixClass.cpp
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Cplusplus\MatrixOperation3\Debug\MatrixDll3.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Cplusplus\MatrixOperation3\Debug\MatrixDll3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Cplusplus\MatrixOperation3\Debug\MatrixDll3.lib" /MACHINE:X86 /DLL Debug\MatrixClass.obj
+         Debug\stdafx.obj
+            Creating library D:\Cplusplus\MatrixOperation3\Debug\MatrixDll3.lib and object D:\Cplusplus\MatrixOperation3\Debug\MatrixDll3.exp
+         MatrixDll3.vcxproj -> D:\Cplusplus\MatrixOperation3\Debug\MatrixDll3.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\MatrixDll3.unsuccessfulbuild".
+         Touching "Debug\MatrixDll3.lastbuildstate".
+     1>Done Building Project "D:\Cplusplus\MatrixOperation3\MatrixDll3\MatrixDll3.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.54

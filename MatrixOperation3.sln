@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixOperation3", "MatrixOperation3\MatrixOperation3.vcxproj", "{06024E28-6038-4B01-A227-B20F9D2BBD7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C02A8D3-8357-46B6-A2CC-D6D035410272} = {7C02A8D3-8357-46B6-A2CC-D6D035410272}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixDll3", "MatrixDll3\MatrixDll3.vcxproj", "{7C02A8D3-8357-46B6-A2CC-D6D035410272}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06024E28-6038-4B01-A227-B20F9D2BBD7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{06024E28-6038-4B01-A227-B20F9D2BBD7B}.Debug|Win32.Build.0 = Debug|Win32
+		{06024E28-6038-4B01-A227-B20F9D2BBD7B}.Release|Win32.ActiveCfg = Release|Win32
+		{06024E28-6038-4B01-A227-B20F9D2BBD7B}.Release|Win32.Build.0 = Release|Win32
+		{7C02A8D3-8357-46B6-A2CC-D6D035410272}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C02A8D3-8357-46B6-A2CC-D6D035410272}.Debug|Win32.Build.0 = Debug|Win32
+		{7C02A8D3-8357-46B6-A2CC-D6D035410272}.Release|Win32.ActiveCfg = Release|Win32
+		{7C02A8D3-8357-46B6-A2CC-D6D035410272}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
